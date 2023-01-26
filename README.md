@@ -14,90 +14,112 @@ Add your timetable
 Execute the program
 
 # CODE
-<TABLE BORDER="3" width="750" bgcolor="cyan" cellspacing="10" cellpadding="10"> 
-<TR> 
-	<TH colspan="8" align="center" bgcolor="DARK BLUE">TIME TABLE</TH>
-</TR>   
-<TR> 
-      <TH colspan="2" align="left" bgcolor="YELLOW">REFERENCE NUMBER</TH>
-      <TH colspan="2" align="center" bgcolor="ORANGE">22003979</TH>
-      <TH colspan="2" align="right" bgcolor="LIGHT green">NAME</TH>
-      <TH colspan="2" align="right" bgcolor="pink">BHARADWAJ</TH>
-</TR>
-<TR>
-	<TD width="25%">DAYS</TD> 
-	<TD width="25%">(8.00-9.00)</TD>
-	<TD width="25%">(9.00-10.00)</TD>
-      <TD width="25%">(10.00-11.00)</TD>
-      <TD width="25%">(11.00-12.00)</TD>
-      <TD width="25%">lunch break(12.00-1.00)</TD>
-      <TD width="25%">(1.00-2.00)</TD>
-      <TD width="25%">(2.00-3.00)</TD>
-      <TD width="25%">(3.00-4.00)</TD>
-      <TD width="25%">(4.00-5.00)</TD>
+```python
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time table</title>
+</head>
+<body>
+    <TABLE BORDER="1" cellspacing="3" bordercolor="blue"> 
+        <TR> 
+            <TH class="abc" colspan="10">TIME TABLE</TH>
+        </TR>
+        
+    <tr>
+        <th>DAYS</th>
+        <th>8:00-9:00</th>
+        <th>9:00-10:00</th>
+        <th>10:00-11:00</th>
+        <th>11:00-12:00</th>
+        <th>12:00-1:00</th>
+        <th>1:00-2:00</th>
+        <TH>2:00-3:00</TH>
+        <th>3:00-4:00</th>
+        <th>4:00-4:30</th>
+    </tr>
+    <tr>
+        <th>Monday</th>
+         <th>----</th>
+         <th>----</th>
+         <th>----</th>
+         <th>----</th>
+        <td>LUNCH-BREAK</td>
+        <td>19EN701/Saranya V</td>
+        <td>19EN701/Saranya V</td>
+        <td>19EN101/ANNE DORTHY</td>
+        <td>19EN101/ANNE DORTHY</td>
+      </tr>
+      <tr>
+        <th>Tuesday</th>
+        <td>19AI414/Gowri Ganesh .NS</td>
+        <td>19AI414/Gowri Ganesh .NS</td>
+        <td>19AI301/Jaba Jasphin E.T</td>
+        <td>19AI301/Jaba Jasphin E.T</td>
+        <td>LUNCH-BREAK</td>
+         <th>----</th>
+         <th>----</th>
+        <td>19CY205/Vivekanand PA M</td>
+        <td>19CY205/Vivekanand PA M</td>
 
-</TR>
-<TR>
-      <TD width="25%">MONDAY</TD>
-      <TD width="25%">WEB</TD>
-      <TD width="25%">WEB</TD>
-      <TD width="25%">MATHS</TD>
-      <TD width="25%">MATHS</TD>
-      <TD width="25%">      </TD>
-      <TD width="25%">SOFT SKILLS</TD>
-      <TD width="25%">SOFT SKILLS</TD>
-      <TD width="25%">GERMAN</TD>
-      <TD width="25%">GERMAN</TD>
-</TR>
-<TR>
-      <TD width="25%">TUESDAY</TD>
-      <TD width="25%">WEB</TD>
-      <TD width="25%">WEB</TD>
-      <TD width="25%">YOGA</TD>
-      <TD width="25%">YOGA</TD>
-      <TD width="25%">      </TD>
-      <TD width="25%">ENGLISH</TD>
-      <TD width="25%">ENGLISH</TD>
-      <TD width="25%">PYTHON</TD>
-      <TD width="25%">PYTHON</TD>
-</TR>
-<TR>
-      <TD width="25%">WEDNESDAY</TD>
-      <TD width="25%">MATHS</TD>
-      <TD width="25%">MATHS</TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">   </TD>
-</TR>
-<TR>
-      <TD width="25%">THRUSDAY</TD>
-      <TD width="25%">    </TD>
-      <TD width="25%">   </TD>
-      <TD width="25%">  </TD>
-      <TD width="25%">PHYSICS</TD>
-      <TD width="25%">MENTOR MEETING</TD>
-      <TD width="25%">GERMAN</TD>
-      <TD width="25%">GERMAN</TD>
-      <TD width="25%">PYTHON</TD>
-      <TD width="25%">PYTHON</TD>
-</TR>
-<TR>
-      <TD width="25%">FRIDAY</TD>
-      <TD width="25%">    </TD>
-      <TD width="25%">    </TD>
-      <TD width="25%">PHYSICS</TD>
-      <TD width="25%">PHYSICS</TD>
-      <TD width="25%">      </TD>
-      <TD width="25%">WEB</TD>
-      <TD width="25%">WEB</TD>
-      <TD width="25%">ENGLISH</TD>
-      <TD width="25%">ENGLISH</TD>
- </TR>
-</TABLE>
-# OUPUT
-![TIME TABLE](![TABLES](https://user-images.githubusercontent.com/119560345/211313549-1a90d6b1-e6a9-4af8-b7b1-a6dd3431b4a9.png)
-
+      </tr>
+      <tr>
+        <th>Wednesday</th>
+        <th>----</th>
+        <th>----</th>
+        <td>19AI301/Jaba Jasphin E.T</td>
+        <td>19AI301/Jaba Jasphin E.T</td>
+        <td>LUNCH-BREAK</th>
+        <th>----</th>
+        <th>----</th>
+        <th>----</th>
+        <th>----</th>
+        
+      </tr>
+      <tr>
+        <th>Thursday</th>
+        <th>----</th>
+        <th>----</th>
+        <td>19AI414/Gowri Ganesh .NS</td>
+        <td>19AI414/Gowri Ganesh .NS</td>
+        <td>LUNCH-BREAK</td>
+        <td>19CY205/Vivekanand PA M</td>
+        <td>19CY205/Vivekanand PA M</td>
+        <td>19AI301/Jaba Jasphin E.T</td>
+        <td>19AI301/Jaba Jasphin E.T</td>   
+      </tr>
+      <tr>
+        <th>Friday</th>
+        <td>19AI414/Gowri Ganesh .NS</td>
+        <td>19AI414/Gowri Ganesh .NS</td>
+        <td>19AI301/Jaba Jasphin E.T</td>
+        <td>19AI301/Jaba Jasphin E.T</td>   
+        <td>LUNCH-BREAK</td>
+        <th>----</th>
+        <th>----</th>
+        <td>19EN101/ANNE DORTHY</td>
+        <td>19EN101/ANNE DORTHY</td>
+        </tr>
+    </table>
+        <ol>
+          <center>
+            <LI>19AI414- FUNDAMENTAL OF WEB APPLICATION</LI>
+            <LI>19AI301- PYTHON PROGRAMMING</LI>
+            <LI>19CY205- PRINCIPLES OF CHEMISTRY IN ENGINEERING</LI>
+            <LI>19EY701- SOFT SKILLS</LI>
+            <LI>19EN101 - COMMUNICATIVE ENGLISH</LI>
+          </center>
+       
+        </ol>
+    
+</body>
+</html>
+```
+## OUPUT
+![output](./logo.png)
+![output](./trimetable1.png)
+## Result
+Timetable is sucessfully created.
